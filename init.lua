@@ -1,10 +1,9 @@
+require("config.options")
+require("config.keybinds")
 require("config.lazy")
+require("config.lsp")
 
--- Tab 
+-- Tab --
 vim.opt.expandtab = true
 vim.opt.tabstop = 2
 vim.opt.shiftwidth = 0
-
-
--- Color scheme
-vim.cmd("colorscheme habamax")

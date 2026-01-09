@@ -5,7 +5,7 @@ return {
     "nvim-lua/plenary.nvim",         -- required
     "sindrets/diffview.nvim",        -- optional - Diff integration
 
-    "ibhagwan/fzf-lua",              -- optional
+    "nvim-telescope/telescope.nvim",              -- optional
   },
   cmd = "Neogit",
   keys = {
