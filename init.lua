@@ -1,7 +1,7 @@
 require("config.options")
 require("config.keybinds")
 require("config.lazy")
-require("config.lsp")
+-- require("config.lsp") deprectated, this all doing mason-lspconfig
 
 -- Tab --
 vim.opt.expandtab = true

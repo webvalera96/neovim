@@ -17,12 +17,7 @@ return {
     "mason-org/mason-lspconfig.nvim",
     opts = {
       ensure_installed = {
-        -- LSP
-        "gopls", "lua-language-server",
-        -- DAP
-        -- Formatters
-        "stylua", "goimports", "gofmt",
-        -- Linters
+        "gopls", "lua_ls",
       },
     },
     dependencies = {
