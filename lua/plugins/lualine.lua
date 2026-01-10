@@ -5,7 +5,7 @@ return {
 		theme = "tokyonight",
 		options = {
 			disabled_filetypes = {
-				statusline = { "neo-tree", "Avante", "AvanteInput" },
+				statusline = { "neo-tree", "Avante", "AvanteInput", "gitsigns-blame" },
 			},
 		},
 	},
