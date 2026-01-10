@@ -25,14 +25,14 @@ return {
 				dapui.close()
 			end
 
-			vim.keymap.set("n", "<Leader>dt", ":lua require('dapui').toggle()<CR>", {})
-			vim.keymap.set("n", "<Leader>db", dap.toggle_breakpoint, {})
-			vim.keymap.set("n", "<Leader>dc", dap.continue, {})
-			vim.keymap.set("n", "<Leader>dsi", dap.step_into, {})
-			vim.keymap.set("n", "<Leader>dss", dap.step_over, {})
-			vim.keymap.set("n", "<Leader>dso", dap.step_out, {})
-			vim.keymap.set("n", "<Leader>dsb", dap.step_back, {})
-			vim.keymap.set("n", "<Leader>dr", ":lua require('dapui').open({reset = true})<CR>", {})
+			vim.keymap.set("n", "<Leader>du", ":lua require('dapui').toggle()<CR>", { desc = "DAP: Toggle ui" })
+			vim.keymap.set("n", "<Leader>db", dap.toggle_breakpoint, { desc = "DAP: Create breakpoint" })
+			vim.keymap.set("n", "<Leader>dc", dap.continue, { desc = "DAP: Continue" })
+			vim.keymap.set("n", "<Leader>dI", dap.step_into, { desc = "DAP: Step Into" })
+			vim.keymap.set("n", "<Leader>dO", dap.step_over, { desc = "DAP: Step Over" })
+			vim.keymap.set("n", "<Leader>dU", dap.step_out, { desc = "DAP: Step Out" })
+			vim.keymap.set("n", "<Leader>dt", dap.terminate, { desc = "DAP: Terminate" })
+			vim.keymap.set("n", "<Leader>dr", ":lua require('dapui').open({reset = true})<CR>", { desc = "DAT: Reset" })
 
 			vim.fn.sign_define(
 				"DapBreakpoint",

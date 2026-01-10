@@ -1,3 +1,7 @@
+-- Disable netrw --
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+
 -- Cursor settings --
 vim.opt.cursorline = true
 
@@ -10,7 +14,7 @@ vim.opt.relativenumber = false
 -- vim.opt.tabstop = 2
 vim.opt.shiftwidth = 4
 
--- Bufferline --
+-- Termguicolores --
 vim.opt.termguicolors = true
 
 -- Shell --

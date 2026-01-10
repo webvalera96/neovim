@@ -32,7 +32,7 @@ return {
 		require("nvim-tree").setup({})
 	end,
 	keys = {
-		{ "<leader>b", "<cmd>NvimTreeToggle<cr>", desc = "Toggle NvimTree" },
+		{ "<leader>e", "<cmd>NvimTreeToggle<cr>", desc = "Toggle NvimTree" },
 	},
 	opts = {
 		sort = {

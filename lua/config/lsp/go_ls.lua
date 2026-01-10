@@ -12,4 +12,14 @@ vim.lsp.config("go_ls", {
 	cmd = { "gopls" },
 	filetypes = { "go" },
 	capabilities = capabilities,
+	settings = {
+		gopls = {
+			completeUnimported = true,
+			usePlaceholders = true,
+			hints = { assignVariableTypes = true },
+			analyses = { unusedparams = true },
+			staticcheck = true,
+			hoverKind = "FullDocumentation",
+		},
+	},
 })
