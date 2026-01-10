@@ -5,7 +5,15 @@ return {
 		theme = "dracula",
 		options = {
 			disabled_filetypes = {
-				statusline = { "neo-tree", "Avante", "AvanteInput", "gitsigns-blame", "OverseerList", "OverseerOutput" },
+				statusline = {
+					"NvimTree",
+					"Avante",
+					"AvanteInput",
+					"AvanteSelectedFiles",
+					"gitsigns-blame",
+					"OverseerList",
+					"OverseerOutput",
+				},
 			},
 		},
 	},
