@@ -9,6 +9,10 @@ return {
 	---@module 'avante'
 	---@type avante.Config
 	opts = {
+		input = {
+			provider = "dressing",
+			provider_opts = {},
+		},
 		-- add any opts here
 		-- this file can contain specific instructions for your project
 		instructions_file = "avante.md",

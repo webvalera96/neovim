@@ -9,6 +9,6 @@ return {
 		vim.keymap.set("n", "<leader>fh", builtin.help_tags, { desc = "Telescope help tags" })
 	end,
 	keys = {
-		{ "<leader>ft", "<cmd>Telescope diagnostics<CR>", { desc = "Telescope diagnostics" } },
+		{ "<leader>fs", "<cmd>Telescope diagnostics<CR>", { desc = "Telescope diagnostics" } },
 	},
 }
