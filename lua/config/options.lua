@@ -35,3 +35,6 @@ vim.o.shellcmdflag = "-l -i"
 -- -- Setting shell quote options
 -- vim.o.shellquote = ""
 -- vim.o.shellxquote = ""
+--
+-- Search --
+vim.opt.hlsearch = false
