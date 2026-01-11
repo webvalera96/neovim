@@ -18,8 +18,8 @@ vim.opt.shiftwidth = 4
 vim.opt.termguicolors = true
 
 -- Shell --
-vim.o.shell = "zsh"
-vim.o.shellcmdflag = "-l -i"
+-- vim.o.shell = "zsh"
+-- vim.o.shellcmdflag = "-l -i"
 -- if vim.fn.executable("pwsh") == 1 then
 -- 	vim.o.shell = "pwsh"
 -- else
