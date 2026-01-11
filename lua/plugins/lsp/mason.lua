@@ -15,6 +15,11 @@ return {
   {
     "mason-org/mason-lspconfig.nvim",
     opts = {
+      automatic_enable = {
+        exclude = {
+          "rust_analyzer"
+        }
+      },
       ensure_installed = {
         "gopls", "lua_ls", "rust_analyzer"
       },
