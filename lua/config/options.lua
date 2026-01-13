@@ -17,6 +17,9 @@ vim.opt.shiftwidth = 4
 -- Termguicolores --
 vim.opt.termguicolors = true
 
+-- Mouse --
+vim.opt.mousescroll = "ver:3,hor:0"
+
 -- Shell --
 -- vim.o.shell = "zsh"
 -- vim.o.shellcmdflag = "-l -i"
