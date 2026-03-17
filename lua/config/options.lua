@@ -23,10 +23,8 @@ vim.opt.mousescroll = "ver:3,hor:0"
 -- Shell --
 -- vim.o.shell = "zsh"
 -- vim.o.shellcmdflag = "-l -i"
--- if vim.fn.executable("pwsh") == 1 then
--- 	vim.o.shell = "pwsh"
--- else
--- 	vim.o.shell = "powershell"
+-- if vim.fn.executable("nu") == 1 then
+-- vim.o.shell = "nu"
 -- end
 --
 -- -- Setting shell command flags
