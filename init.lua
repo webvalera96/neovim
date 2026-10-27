@@ -1,5 +1,5 @@
 require("config.options")
-require("config.keybinds")
+require("config.keybindings")
 require("config.lazy")
 
 -- Tab --

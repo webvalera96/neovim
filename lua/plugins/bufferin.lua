@@ -10,7 +10,4 @@ return {
     -- 'willothy/nvim-cokeline',     -- For buffer line integration
     -- 'akinsho/bufferline.nvim',    -- Alternative buffer line
   },
-  keys = {
-    { "<leader>b", "<cmd>Bufferin<CR>", { desc = "Bufferin" } }
-  },
 }

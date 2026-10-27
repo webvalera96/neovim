@@ -1,8 +1,6 @@
 return {
 	"folke/todo-comments.nvim",
-	keys = {
-		{ "<leader>ft", ":TodoTelescope<CR>", desc = "Telescope all todos" },
-	},
+	cmd = "TodoTelescope",
 	dependencies = { "nvim-lua/plenary.nvim" },
 	opts = {
 		signs = true, -- show icons in the signs column

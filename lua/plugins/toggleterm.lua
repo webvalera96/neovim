@@ -3,7 +3,6 @@ return {
 	version = "*",
 	opts = {
 		close_on_exit = false,
-		open_mapping = [[<leader>`]],
 		shell = require("config.shell").shell,
 	},
 }
