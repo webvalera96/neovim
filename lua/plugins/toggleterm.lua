@@ -4,6 +4,6 @@ return {
 	opts = {
 		close_on_exit = false,
 		open_mapping = [[<leader>`]],
-		shell = "zsh",
+		shell = require("config.shell").shell,
 	},
 }
