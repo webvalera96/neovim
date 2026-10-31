@@ -74,6 +74,21 @@ map("n", "<leader>dr", function()
 	require("dapui").open({ reset = true })
 end, { desc = "DAP: Reset" })
 
+-- Zoom split --
+map("n", "<leader>z", function()
+	if vim.g.zoom_tab and vim.api.nvim_tabpage_is_valid(vim.g.zoom_tab) then
+		if vim.api.nvim_get_current_tabpage() == vim.g.zoom_tab then
+			vim.cmd("tabclose")
+		else
+			vim.cmd("tabclose " .. vim.api.nvim_tabpage_get_number(vim.g.zoom_tab))
+		end
+		vim.g.zoom_tab = nil
+	else
+		vim.cmd("tab split")
+		vim.g.zoom_tab = vim.api.nvim_get_current_tabpage()
+	end
+end, { desc = "Zoom split (toggle)" })
+
 -- which-key --
 map("n", "<leader>?", function()
 	-- which-key is lazy-loaded on VeryLazy; load it on demand if needed
